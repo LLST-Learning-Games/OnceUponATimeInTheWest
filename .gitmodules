@@ -1,0 +1,3 @@
+[submodule "Assets/PointAndClick_Core"]
+	path = Assets/PointAndClick_Core
+	url = https://github.com/LLST-Learning-Games/PointAndClick_Core
