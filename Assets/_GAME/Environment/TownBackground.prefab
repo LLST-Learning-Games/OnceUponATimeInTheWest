@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 6366606178553616135}
   - component: {fileID: 6366606178553616134}
   m_Layer: 3
-  m_Name: ShipBackground
+  m_Name: TownBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
