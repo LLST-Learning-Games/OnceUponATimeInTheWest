@@ -20,6 +20,10 @@ position: 137,32
 ---
 
 This is Conversation number 1. The next conversation will be another one.
+-> Here is an option
+	You picked option 1.
+-> Here is another option.
+	You picked option 2!
 
 <<set $conversationCount = $conversationCount + 1>>
 
