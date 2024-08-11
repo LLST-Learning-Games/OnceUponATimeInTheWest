@@ -709,14 +709,14 @@ PrefabInstance:
     - target: {fileID: 8375310463668112051, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1741152310}
     - target: {fileID: 8375310463668112051, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnContinueClicked
       objectReference: {fileID: 0}
     - target: {fileID: 8375310463668112051, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Yarn.Unity.LineView, YarnSpinner.Unity
+      value: Conversation.UI.UnifiedYarnDialogueView, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8375310463668112055, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1103,7 +1103,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.82, y: -0.29000002, z: -10}
+  m_LocalPosition: {x: 0.5285025, y: -0.29000014, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
