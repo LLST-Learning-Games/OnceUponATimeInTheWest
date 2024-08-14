@@ -296,9 +296,21 @@ PrefabInstance:
       propertyPath: m_Padding.m_Bottom
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 6144965690689365491, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_ChildControlHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144965690689365491, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_ChildForceExpandHeight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6260743322586907122, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_Name
       value: Unified Yarn Dialogue View - Game Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234079201724938180, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
