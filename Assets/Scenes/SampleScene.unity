@@ -1640,6 +1640,14 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3250797266016743225, guid: 3d48fe80da07de145a9410220ac487cc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250797266016743225, guid: 3d48fe80da07de145a9410220ac487cc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 3d48fe80da07de145a9410220ac487cc, type: 3}
       propertyPath: yarnProject
       value: 
@@ -1655,7 +1663,7 @@ PrefabInstance:
     - target: {fileID: 3579681405068720530, guid: 3d48fe80da07de145a9410220ac487cc, type: 3}
       propertyPath: dialogueViews.Array.data[0]
       value: 
-      objectReference: {fileID: 8632225833349937822, guid: 8429b701fe78bb0488c4c1a6db1d1fe3, type: 3}
+      objectReference: {fileID: 8662699042639268875, guid: c9755f026a3e07d45a6294d6aff55356, type: 3}
     - target: {fileID: 3927829956814803308, guid: 3d48fe80da07de145a9410220ac487cc, type: 3}
       propertyPath: m_SizeDelta.y
       value: -40
