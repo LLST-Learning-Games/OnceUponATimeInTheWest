@@ -218,6 +218,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1931608351790808902, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: _systemId
+      value: LookAt
+      objectReference: {fileID: 0}
+    - target: {fileID: 2753718018642029294, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: m_Name
+      value: LookAt System
+      objectReference: {fileID: 0}
     - target: {fileID: 3691212727365656785, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -670,7 +678,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dialogueRunner: {fileID: 3579681406434041354}
-  _lookAtKey: SpacePersonLookAt
+  _dialogueSystemId: LookAt
+  _dialogueKey: SpacePersonLookAt
+--- !u!114 &846898520 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1241127612, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+  m_PrefabInstance: {fileID: 5055847822286495998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846898513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef22d585c96a644f907ec6515a053f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1243779549
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +922,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1382251914, guid: 5b91a2add407dee40bf64cf529e2a752, type: 3}
     - target: {fileID: 1241127612, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+      propertyPath: _dialogueKey
+      value: RoutingNode
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241127612, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
       propertyPath: _conversationId
       value: RoutingNode
       objectReference: {fileID: 0}
@@ -909,6 +933,10 @@ PrefabInstance:
       propertyPath: _dialogueRunner
       value: 
       objectReference: {fileID: 1799252381}
+    - target: {fileID: 1241127613, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+      propertyPath: _interactableBridge
+      value: 
+      objectReference: {fileID: 846898520}
     - target: {fileID: 1448967217930050743, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
       propertyPath: m_text
       value: leave town
@@ -946,9 +974,17 @@ PrefabInstance:
       value: GeneralStoreLookAt
       objectReference: {fileID: 0}
     - target: {fileID: 5034361316719713023, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+      propertyPath: _dialogueKey
+      value: GeneralStoreLookAt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034361316719713023, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
       propertyPath: _dialogueRunner
       value: 
       objectReference: {fileID: 3579681406434041354}
+    - target: {fileID: 5034361316719713023, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+      propertyPath: _dialogueSystemId
+      value: Bark
+      objectReference: {fileID: 0}
     - target: {fileID: 5055847821794091094, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
       propertyPath: m_RootOrder
       value: 2
