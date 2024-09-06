@@ -4,9 +4,13 @@ title: RoutingNode
 position: -90,-187
 ---
 <<declare $conversationCount = 0 as number>>
+<<declare $happyGuy = false as bool>>
 
 <<if $conversationCount == 0>>
 	<<jump FirstChat>>
+<<endif>>
+<<if $conversationCount == 1>>
+	<<jump SecondChat>>
 <<else>>
 	<<jump Start>>
 <<endif>>
@@ -22,13 +26,31 @@ position: 137,32
 This is Conversation number 1. The next conversation will be another one.
 -> Here is an option
 	You picked option 1.
+	<<jump SecondChat>>
 -> Here is another option.
 	You picked option 2!
+	<<set $happyGuy = true>>
 
 <<set $conversationCount = $conversationCount + 1>>
 
 ===
 
+title: SecondChat
+---
+
+Ok, here is another conversation!
+-> Cool!
+-> Rad! 
+
+Now what?
+-> I dunno!
+	Well, it's up to you!
+-> Who cares!
+	That's very nihlistic of you!
+
+<<set $conversationCount = $conversationCount + 1>>
+
+===
 
 title: Start
 tags:
