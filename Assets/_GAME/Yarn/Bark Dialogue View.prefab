@@ -379,8 +379,52 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6144965690689365491, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+--- !u!1 &3701969645340186684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6260743322586907122, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+  m_PrefabInstance: {fileID: 7314594728756304334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &668577795597733946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3701969645340186684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0721309a3d4b21e4ca762e3009c3c64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeToDestroy: 1
+  _thingToDo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8662699042639268875}
+        m_TargetAssemblyTypeName: Conversation.UI.UnifiedYarnDialogueView, Assembly-CSharp
+        m_MethodName: OnContinueClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &6335153856634274127 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3632247626693810305, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
   m_PrefabInstance: {fileID: 7314594728756304334}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8662699042639268875 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2142235434788820421, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+  m_PrefabInstance: {fileID: 7314594728756304334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3701969645340186684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28158d0040d6fb74c92671c556d59e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
