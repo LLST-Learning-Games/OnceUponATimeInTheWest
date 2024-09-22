@@ -423,7 +423,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightedSpriteRenderer: {fileID: 1449304352673295209}
   _walkToPosition: {fileID: 1449304352291041496}
-  _interactableBridge: {fileID: 1272783604}
+  _typeRelationships:
+  - InputType: 10
+    Interactable: {fileID: 1272783604}
 --- !u!58 &1449304353413176952
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -154,7 +154,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightedSpriteRenderer: {fileID: 6191700942596389405}
   _walkToPosition: {fileID: 8549589263084791604}
-  _interactableBridge: {fileID: 7378625400786738959}
+  _typeRelationships:
+  - InputType: 10
+    Interactable: {fileID: 7378625400786738959}
+  - InputType: 20
+    Interactable: {fileID: 846898518}
 --- !u!114 &7378625400786738959
 MonoBehaviour:
   m_ObjectHideFlags: 0
