@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _objectToScale: {fileID: 0}
-  _minimumScale: 0.5
-  _maximumScale: 1.3
+  _minimumScale: 0.9
+  _maximumScale: 1.2
   _closestY: -1.3
-  _furthestY: 0
+  _furthestY: 0.3
 --- !u!1 &2194168194160403080
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,20 +124,20 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 2194168194160403078}
     m_ColliderPaths:
-    - - X: 31593334
-        Y: 16186382
-      - X: -31642552
-        Y: 16186382
-      - X: -31642552
-        Y: -16156586
-      - X: 31593334
-        Y: -16156586
+    - - X: 38229732
+        Y: 15435565
+      - X: -38041224
+        Y: 15435565
+      - X: -38041224
+        Y: -16535429
+      - X: 38229732
+        Y: -16535429
   m_CompositePaths:
     m_Paths:
-    - - {x: 3.1593041, y: -1.6156586}
-      - {x: 3.1593041, y: 1.6186383}
-      - {x: -3.1642551, y: 1.618609}
-      - {x: -3.164226, y: -1.6156586}
+    - - {x: 3.822944, y: -1.6535429}
+      - {x: 3.822944, y: 1.5435566}
+      - {x: -3.8041224, y: 1.5435272}
+      - {x: -3.8040934, y: -1.6535429}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!61 &2194168194160403078
@@ -153,7 +153,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: -0.004474163, y: 0.0027086735}
+  m_Offset: {x: 0.023563385, y: -0.137483}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -164,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.497434, y: 5.8805394}
+  m_Size: {x: 19.067738, y: 7.9927483}
   m_EdgeRadius: 0
 --- !u!1 &2194168194285830298
 GameObject:
@@ -223,19 +223,31 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.2964163, y: -0.6062517}
-      - {x: 0.65724635, y: -1.0938877}
-      - {x: -0.79717714, y: -1.3861681}
-      - {x: -0.25932443, y: -1.9028155}
-      - {x: -0.73943204, y: -2.3777757}
-      - {x: -1.5462662, y: -2.593651}
-      - {x: -2.3714712, y: -2.8951292}
-      - {x: 5.690071, y: -2.8757763}
-      - {x: 5.682304, y: -2.504958}
-      - {x: 4.1427383, y: -1.6080658}
-      - {x: 2.928426, y: -1.2036889}
-      - {x: 2.3466585, y: -0.77930963}
-      - {x: 1.9213302, y: -0.66125673}
+    - - {x: -0.7247211, y: 0.44692355}
+      - {x: -1.5041332, y: -0.758993}
+      - {x: -3.8061574, y: -0.89993066}
+      - {x: -3.8681016, y: 0.14456344}
+      - {x: -5.879301, y: 0.042236924}
+      - {x: -9.538755, y: -3.5448122}
+      - {x: -9.499802, y: -4.73618}
+      - {x: -2.4507275, y: -4.7297373}
+      - {x: -2.2935977, y: -3.281015}
+      - {x: -1.2621607, y: -1.5146663}
+      - {x: 0.17971443, y: -1.4826095}
+      - {x: -0.4135599, y: -3.8328335}
+      - {x: 1.3026994, y: -4.1963367}
+      - {x: 1.6823719, y: -2.6892514}
+      - {x: 3.1960206, y: -2.6620219}
+      - {x: 3.7873168, y: -3.8411353}
+      - {x: 5.4280634, y: -4.388837}
+      - {x: 4.209998, y: -2.627684}
+      - {x: 4.1957674, y: -1.2596467}
+      - {x: 6.0499377, y: -0.959986}
+      - {x: 7.7567573, y: -3.51942}
+      - {x: 7.6686645, y: -4.7863274}
+      - {x: 9.502405, y: -4.6389055}
+      - {x: 9.521729, y: -2.2106242}
+      - {x: 6.615323, y: 0.11830102}
 --- !u!1 &6366606178553616132
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +259,7 @@ GameObject:
   - component: {fileID: 6366606178553616135}
   - component: {fileID: 6366606178553616134}
   m_Layer: 3
-  m_Name: TownBackground
+  m_Name: Background_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -262,7 +274,7 @@ Transform:
   m_GameObject: {fileID: 6366606178553616132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.32, z: 2}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2194168194285830297}
@@ -313,8 +325,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: faf9306fc6ba1004c8cbdc586b588ded, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5d8812ab271dd9b42a3665cabc687641, type: 3}
+  m_Color: {r: 0.4528302, g: 0.44642222, b: 0.44642222, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -377,7 +389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2539437115555670742, guid: 36e11d792728d334f8c72db780a0b510, type: 3}
       propertyPath: data.dataString
-      value: UEsDBBQAAAgIAACAn+tbYEMqegIAADsFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFtVE1z2jAQ/SuMzoWRSRxwby0QkkMSJrSTiy/CXmMNsuSRZD6S4b93JQvs0p688/br7duVvwiXpobMKr3UPH9ROZDvA+Js8m3QOZ/gyLZKrvknXGI+eG5LF8R8zDuzXCEeuTSjKrCaZz/kVrhgimAjeaF0tci3MFPGGoQLJgygSyvrsiVCXwNyxM8wcSkntMYTZ32ildDBGc0MpAXdhdLRw0OIHdJRHIdoOop8eCMzwaoacse9y4pDSjSKfZjEqUIEHVHnfZZ70HadMUfL6sYRzZQQ3ASmxJ5qr8Q7Ozkdcs5wak8NmyNQAt+W1s3QT30rCgM2iKLZac41ytfWJD9Vq2nFzK4lu2eicV2mnmZb8uUf77AdttCqerp0jajrYEue7ZBhxoztSd6H5x3xyCt2YGLHNgI+SpCvaqlVI/NOhMbAeP4fTWYlZLsOb6negE3dW9x1BVEypsldNF0M6SSszw109kIcZ4JXGy/qfQushfLC+xsBjZt7Rvb+gkyoi6ij9NvAL7btn1pwPHJtLLrCyNJx3ahGu1Cy8AK60Ro7U1qCh8MENUgm7GmFZeztNm98vbY3nkfmHlVoHnyXt3KT4uEuntIb10odrpszpTq8gCnfGiu4hI60c7yiTjMlZXtsfU0uaetGFyzrpW0bnv99Z+SumG6y+D6J4zEu7WE6nNDJPSQ0YvkmySbFmPhD5BLnZGLVEg3y4NZ6b0ni0V3+NYOlZrU//Fyzw5J/VqonOZeFWmcaQL61Fa7EQWMTfLX5Iuco0Bqs5dLvm3ylRKhsB3l6LZT6SRdHq1naVUlJzffKOiQlM/9zSYmDr4e90rDncHDNL8XO5PwHUEsDBBQAAAgIAACAn+vT5JfdbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSScZpFUrKpiaWpqZGlkYGZha65gblJqqWBYWJKkmWyeZqRUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+tbYEMqegIAADsFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+vT5JfdbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
+      value: UEsDBBQAAAgIAACAn+t8FDlvfwIAAEEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFtVEtz2jAQ/iuMzoWRAfPorSWE5JCECe3k4ouQ11iDLDGSzCMZ/ntXso1dWi7sfPv69tuVv4hQ9gDcabMyIn3RKZDvPeJt8q3XOp/gzHZabcQnNDEfInW5D2Ih5p05oRGPfJrVBTgj+A+1kz6YIlgqkWlTLNMdLLR1FuGMSQvoMtr5bIXQV4+c8a8/9ykXtIZTb32iNae9K5oclAPThtLBZELxF43jOqVPB3FcJ9FBFLJKxSUrDpD6EdrkqGkThyiFs9UBdEB9jWd1BOM2nHlyzpSeLtdSClvzJe5yCHq8s4tXIxUMZw8EsTcCOYhd7vwk3dS3LLPgamkMuzwIgyJWNclPXSlbMLuvuB6ZLH2XWaBZlXz5x9uvZs2MLp6arhH1HVwu+B4ZcmZdR/gu/NASj4JgJyb3bCvhIwf1qldGlyptRSgtDB/+o8kiB75v8YrqHVgeOutr9jwYzcbRbDKaLPt0Wm/PD3QNQpwXUhTbIOq4AjZSB+HDpYDBzT0j+3BHtq6LqKf028IvtuseXO14FMY6dNUjK891q0vjQ8kyCOhHK91CGwUBric4gGLSXdZYxt1v887XaXvneWT+adXNa1/zYu5SAtzGU3rnWuvTbXM216cXsPlb6aRQ0JL2jlfUaaGVqo6tq0mTtilNxngnbVeK9O87I6NstuXxeB7Hw/mQTmb9KZ2OYU4jlm7nfJoNSThEoXBOJtcV0Voe3FrnLSk8uuaL01sZdgiHnxp2WonPQnckFyrTG24A1FtV4UYcDDbBV5suU4ECbcA5ocK+yVdCpOZ7SJNboSRMujw7w5K2SkIO4qidRxKyCJ+YhHj4dthrA0cBJ9+8KXYl1z9QSwMEFAAACAgAAICf69Pkl91tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJxmkVSsqmJpampkaWRgZmFrrmBuUmqpYFhYkqSZbJ5mpFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAICf63wUOW9/AgAAQQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAICf69Pkl91tAAAAeAAAAAkAJAAAAAAAAAAAAAAAzAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACEAwAAAAA=
       objectReference: {fileID: 0}
     - target: {fileID: 2539437115555670743, guid: 36e11d792728d334f8c72db780a0b510, type: 3}
       propertyPath: m_Name
