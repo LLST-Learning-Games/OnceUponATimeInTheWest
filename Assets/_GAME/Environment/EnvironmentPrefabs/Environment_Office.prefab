@@ -11,6 +11,14 @@ PrefabInstance:
       propertyPath: _dialogueRunner
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1448967217930050743, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+      propertyPath: m_text
+      value: kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835000883770503674, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+      propertyPath: m_Name
+      value: SceneChangeInteractable_kitchen
+      objectReference: {fileID: 0}
     - target: {fileID: 5034361316719713023, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
       propertyPath: _dialogueRunner
       value: 
@@ -62,6 +70,10 @@ PrefabInstance:
     - target: {fileID: 5055847821794091097, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
       propertyPath: m_Name
       value: Environment_Office
+      objectReference: {fileID: 0}
+    - target: {fileID: 7095314507615945728, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
+      propertyPath: _sceneName
+      value: Kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 7378625399889191141, guid: f2ff422023a624a4b833eeede73bc505, type: 3}
       propertyPath: _dialogueRunner
@@ -151,6 +163,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 5436817581472064326}
     m_Modifications:
     - target: {fileID: 2103294057597832674, guid: 8230e230247c7dc4ea93973f2093f6ea, type: 3}
+      propertyPath: _sceneName
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 2103294057597832674, guid: 8230e230247c7dc4ea93973f2093f6ea, type: 3}
       propertyPath: _sceneIndex
       value: 6
       objectReference: {fileID: 0}
@@ -215,10 +231,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5436817581472064326}
     m_Modifications:
-    - target: {fileID: 3711177071874558035, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
-      propertyPath: _dialogueRunner
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6189805536658305546, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
       propertyPath: _dialogueRunner
       value: 
