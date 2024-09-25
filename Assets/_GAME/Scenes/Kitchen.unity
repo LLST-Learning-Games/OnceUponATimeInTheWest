@@ -701,28 +701,6 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 629161754}
   m_ConfineScreenEdges: 1
   m_Damping: 0
---- !u!114 &1799252381 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2868440827225572425, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
-  m_PrefabInstance: {fileID: 158088345}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3579681406434041354 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3579681406290125459, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
-  m_PrefabInstance: {fileID: 158088345}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6912143265131389374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -730,14 +708,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1856933730047253500, guid: 1f7e5261651bb084f9811eafc9277a93, type: 3}
-      propertyPath: _dialogueRunner
-      value: 
-      objectReference: {fileID: 1799252381}
-    - target: {fileID: 6636198714507107263, guid: 1f7e5261651bb084f9811eafc9277a93, type: 3}
-      propertyPath: _dialogueRunner
-      value: 
-      objectReference: {fileID: 3579681406434041354}
     - target: {fileID: 6912143264538321174, guid: 1f7e5261651bb084f9811eafc9277a93, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -786,13 +756,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment_Kitchen
       objectReference: {fileID: 0}
-    - target: {fileID: 8913390642307892544, guid: 1f7e5261651bb084f9811eafc9277a93, type: 3}
-      propertyPath: _sceneIndex
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9197199085906665893, guid: 1f7e5261651bb084f9811eafc9277a93, type: 3}
-      propertyPath: _dialogueRunner
-      value: 
-      objectReference: {fileID: 3579681406434041354}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f7e5261651bb084f9811eafc9277a93, type: 3}
