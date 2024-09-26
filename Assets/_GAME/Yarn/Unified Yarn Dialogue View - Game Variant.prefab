@@ -104,6 +104,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2142235434788820421, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: _shouldBlockClicks
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3023893998550924166, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_Pivot.x
       value: 1
