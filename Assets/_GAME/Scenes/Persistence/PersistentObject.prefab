@@ -1094,6 +1094,38 @@ PrefabInstance:
       propertyPath: _inventorySystem
       value: 
       objectReference: {fileID: 1462510827}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2829232213345084183}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557670546901845073, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
+      propertyPath: _onExitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8557670546901845075, guid: 0160f362b6bf0a3479b4554fcde80c9a, type: 3}
       propertyPath: m_Name
       value: InventoryUi - Game Variant
