@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1093181928847083715, guid: 9d6475bb59548ac4088541445517040e, type: 3}
+      propertyPath: _faderImage
+      value: 
+      objectReference: {fileID: 2286351873702031754}
     - target: {fileID: 1161342458758630506, guid: 9d6475bb59548ac4088541445517040e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -270,5 +274,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0721309a3d4b21e4ca762e3009c3c64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2286351873702031754 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3808116880505802945, guid: 9d6475bb59548ac4088541445517040e, type: 3}
+  m_PrefabInstance: {fileID: 3126596322559877451}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

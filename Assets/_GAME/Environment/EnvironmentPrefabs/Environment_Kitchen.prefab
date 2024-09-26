@@ -688,14 +688,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5837078402625180586, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 5837078402625180586, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.52
-      objectReference: {fileID: 0}
     - target: {fileID: 8232796416372497665, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
       propertyPath: m_Name
       value: EnvironmentInteractable_Sink
@@ -761,10 +753,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8232796417215309769, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
-      propertyPath: _typeRelationships.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8232796417215309769, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
       propertyPath: _typeRelationships.Array.data[0].InputType
       value: 20
       objectReference: {fileID: 0}
@@ -778,10 +766,6 @@ PrefabInstance:
       objectReference: {fileID: 5461245257962185887}
     - target: {fileID: 8232796417215309769, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
       propertyPath: _typeRelationships.Array.data[1].Interactable
-      value: 
-      objectReference: {fileID: 2558191807033802901}
-    - target: {fileID: 8232796417215309769, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
-      propertyPath: _typeRelationships.Array.data[2].Interactable
       value: 
       objectReference: {fileID: 2558191807033802901}
     - target: {fileID: 8232796417375565721, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
@@ -828,10 +812,6 @@ PrefabInstance:
       propertyPath: _fallbackAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5461245257962185887}
-    - target: {fileID: 8965638024907864475, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
-      propertyPath: _fallbackAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetDialogueKey
-      objectReference: {fileID: 0}
     - target: {fileID: 8965638024907864475, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
       propertyPath: _fallbackAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: SinkCantUse
@@ -942,11 +922,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 04d85b93f6dd1d24487d056fbb313523, type: 2}
     - target: {fileID: 1752031955128681759, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.19
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1752031955128681759, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4
+      value: -1.53
       objectReference: {fileID: 0}
     - target: {fileID: 4058216271785751469, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
       propertyPath: m_RootOrder
