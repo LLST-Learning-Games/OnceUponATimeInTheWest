@@ -680,6 +680,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6912143264538321174}
     m_Modifications:
+    - target: {fileID: 4869676485420698340, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8232796416372497665, guid: ecfe6ff43baab5f4899c1a7d3fa355ea, type: 3}
       propertyPath: m_Name
       value: EnvironmentInteractable_Sink

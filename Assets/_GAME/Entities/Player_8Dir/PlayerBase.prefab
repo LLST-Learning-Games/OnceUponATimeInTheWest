@@ -144,6 +144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 1125925477662501655}
+  _is8Dir: 0
+  _updateFreq: 0.1
   _sprite: {fileID: 5831252220072291478}
   _aiLerp: {fileID: 46176048}
 --- !u!114 &1095486459
@@ -158,7 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a224975e508c67d43ac18b221b8d34d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementTarget: {fileID: 0}
+  _movementTargetPrefab: {fileID: 0}
+  _destinationSetter: {fileID: 0}
   _playerAi: {fileID: 46176048}
 --- !u!1 &1537050440041786676
 GameObject:
@@ -316,7 +319,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 1014491239, guid: aed13f2665d358d4f9512948fa20eee4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -325,6 +328,6 @@ SpriteRenderer:
   m_Size: {x: 0.29, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

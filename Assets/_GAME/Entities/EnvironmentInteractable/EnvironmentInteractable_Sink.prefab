@@ -11,6 +11,30 @@ PrefabInstance:
       propertyPath: _dialogueKey
       value: SinkLookAt
       objectReference: {fileID: 0}
+    - target: {fileID: 6019800709970620405, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6019800709970620405, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6019800709970620405, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6300002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6019800709970620405, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 6019800709970620405, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6019800709970620405, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6189805536658305547, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
       propertyPath: _typeRelationships.Array.data[0].InputType
       value: 20
@@ -202,6 +226,18 @@ PrefabInstance:
     - target: {fileID: 6614107420046634073, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
       propertyPath: _inventoryItemRelationships.Array.data[1].Action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076860768655779353, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220060861760233254, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380811351615756056, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8549846459790231144, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
       propertyPath: m_LocalPosition.x
