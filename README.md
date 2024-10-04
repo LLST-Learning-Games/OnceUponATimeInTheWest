@@ -1,6 +1,8 @@
 <h1>Point and Click Prototyping Demo</h1>
 This is a sample implementation of the in-progress point-and-click core module found at: https://github.com/LLST-Learning-Games/PointAndClick_Core
 
+It was written by <a href="https://matthew-r-stevens.ca/" target="_blank">Matthew R. Stevens</a> and Ben Stevens.
+
 <h3>Install Steps:</h3>
 
 - recursively clone repo: git clone --recurse-submodules https://github.com/LLST-Learning-Games/OnceUponATimeInTheWest/
