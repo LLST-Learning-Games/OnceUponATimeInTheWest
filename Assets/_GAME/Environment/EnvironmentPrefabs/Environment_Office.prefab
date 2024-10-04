@@ -212,7 +212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6189805537518176451, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
       propertyPath: m_Name
-      value: NPC_SpacePerson
+      value: NPC_GreenPerson
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa94c1b3c095a8d458ac1ab8df7e674e, type: 3}
