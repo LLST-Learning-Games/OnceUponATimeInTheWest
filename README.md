@@ -8,6 +8,7 @@ It was written by <a href="https://matthew-r-stevens.ca/" target="_blank">Matthe
 - recursively clone repo: git clone --recurse-submodules https://github.com/LLST-Learning-Games/OnceUponATimeInTheWest/
 - add project to Unity (v 2021.3.24f1)
 - install CineMachine package
+- open the Bedroom, Office, or Kitchen scene
 
 <h3>FAQ</h3>
 <ul>
