@@ -124,9 +124,21 @@ PrefabInstance:
       value: Option View - Game Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7306900526976280635, guid: 2b8d26623504a9746917f3170f354cf5, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306900526976280635, guid: 2b8d26623504a9746917f3170f354cf5, type: 3}
+      propertyPath: m_margin.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306900526976280635, guid: 2b8d26623504a9746917f3170f354cf5, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: d60d69f34a56d8e40af90c98273fb63a, type: 2}
+    - target: {fileID: 7306900526976280635, guid: 2b8d26623504a9746917f3170f354cf5, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7306900526976280635, guid: 2b8d26623504a9746917f3170f354cf5, type: 3}
       propertyPath: m_sharedMaterial
       value: 
