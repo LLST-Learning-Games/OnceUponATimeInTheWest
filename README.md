@@ -10,6 +10,13 @@ It was written by <a href="https://matthew-r-stevens.ca/" target="_blank">Matthe
 - install CineMachine package
 - open the Bedroom, Office, or Kitchen scene
 
+<h3>Assets</h3>
+<ul>
+  <li>Character assets: https://ordinary-bumblebee.itch.io/8-direction-walk-cycle</li>
+  <li>UI elements: https://www.kenney.nl/assets/fantasy-ui-borders</li>
+  <li>Font: https://www.dafont.com/manaspace.font</li>
+  <li>Tech Objects: https://opengameart.org/content/old-computer-hardware</li>
+</ul>
 <h3>FAQ</h3>
 <ul>
   <li><b>Why "Once Upon A Time In The West"?</b> For a brief period of time, this demo was built using wild-west assets. Now it's just the super-secret code-name for the project, like in the movies.</li>
