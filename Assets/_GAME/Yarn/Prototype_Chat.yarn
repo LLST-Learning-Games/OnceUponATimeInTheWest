@@ -30,11 +30,11 @@ title: Start
 position: -223,131
 ---
 
-Hello, my blue friend. It's nice to see you again. I have a task for you.
--> I don't want to do another one of your fetch quests.
-	Too bad, you don't really have a choice in this prototype.
--> Lovely, nothing brings me more satisfaction than finding you stuff.
-	Excellent, because that's what this is.
+Green: Hello, my blue friend. It's nice to see you again. I have a task for you.
+-> Blue: I don't want to do another one of your fetch quests.
+	Green: Too bad, you don't really have a choice in this prototype.
+-> Blue: Lovely, nothing brings me more satisfaction than finding you stuff.
+	Green: Excellent, because that's what this is.
 
 <<set $currentQuest = "fetchThingie">>
 <<jump StartReminder>>

@@ -218,6 +218,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 344068253815592494, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: _characterDataManager
+      value: 
+      objectReference: {fileID: 1472267113}
     - target: {fileID: 688611717350588865, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1173,6 +1177,34 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 629161754}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!1 &1472267108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3482409559832415284, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+  m_PrefabInstance: {fileID: 158088345}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1472267113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472267108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c143ad7069176554abbd79bac77c785e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _characterData:
+  - Id: Player
+    ActiveTextColor: {r: 0.30980393, g: 0.41960788, b: 0.9215687, a: 1}
+    HistoricTextColor: {r: 0.11764707, g: 0.1764706, b: 0.52156866, a: 1}
+    CharacterSprite: {fileID: 0}
+    NameColor: {r: 0, g: 0, b: 0, a: 0}
+  - Id: Green
+    ActiveTextColor: {r: 0.078431375, g: 0.6313726, b: 0.18039216, a: 1}
+    HistoricTextColor: {r: 0.09411766, g: 0.45882356, b: 0.18823531, a: 1}
+    CharacterSprite: {fileID: 0}
+    NameColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &5436817581024748526
 PrefabInstance:
   m_ObjectHideFlags: 0
