@@ -103,6 +103,10 @@ PrefabInstance:
       propertyPath: _timeUntilDoThing
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2962348283993930984, guid: 9d6475bb59548ac4088541445517040e, type: 3}
+      propertyPath: _faderImage
+      value: 
+      objectReference: {fileID: 2286351873702031754}
     - target: {fileID: 3433298220467813029, guid: 9d6475bb59548ac4088541445517040e, type: 3}
       propertyPath: _monoSystems.Array.size
       value: 8
