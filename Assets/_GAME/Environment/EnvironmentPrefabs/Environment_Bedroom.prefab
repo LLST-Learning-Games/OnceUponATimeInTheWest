@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4251476284447414764}
     m_Modifications:
+    - target: {fileID: 794994389369245044, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
+      propertyPath: _item
+      value: 
+      objectReference: {fileID: 11400000, guid: b6700314e5e69474295c1131b3f452be, type: 2}
     - target: {fileID: 1752031955128681759, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.13
@@ -65,8 +69,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6315618110032609519, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
       propertyPath: _dialogueKey
-      value: ComputerChipLookAt
+      value: HardDriveLookAt
       objectReference: {fileID: 0}
+    - target: {fileID: 7687026667778721995, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bbfbc4b3d1468204c82f693ea029ddbd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e75364893c9c58e4b93b38d57923bfb1, type: 3}
 --- !u!1001 &4251476283601499785

@@ -47,9 +47,9 @@ position: 137,32
 
 <<set $conversationCount = $conversationCount + 1>>
 <<if $happyGuy == false>>
-	I would like you to find me the integrated circuit. Bring it to me when you find it.
+	Green: I would like you to find me the integrated circuit. Bring it to me when you find it.
 <<else>>
-	Ah, I see you have already found me the integrated circuit. Truly, you're very kind.
+	Green: Ah, I see you have already found me the integrated circuit. Truly, you're very kind.
 <<endif>>
 
 ===
@@ -58,10 +58,10 @@ title: HappyGuyNode
 position: 137,32
 ---
 
-You've made me a very happy guy. This is the end of your quest.
+Green: You've made me a very happy guy. This is the end of your quest.
 <<set $currentQuest = "none">>
 <<if $politeGuy != true>>
-	You weren't very polite about it, though.
+	Green: You weren't very polite about it, though.
 <<endif>>
 
 
@@ -71,11 +71,11 @@ title: FirstChat
 position: 137,32
 ---
 
-This is a different conversation, to show conversations move forward. The next conversation will be another one.
--> Here is an option
-	You picked option 1.
--> Here is another option.
-	You picked option 2!
+Green: This is a different conversation, to show conversations move forward. The next conversation will be another one.
+-> Blue: Here is an option
+	Green: You picked option 1.
+-> Blue: Here is another option.
+	Green: You picked option 2!
 
 <<set $conversationCount = $conversationCount + 1>>
 
@@ -84,15 +84,15 @@ This is a different conversation, to show conversations move forward. The next c
 title: SecondChat
 ---
 
-Ok, here is another conversation!
--> Cool!
--> Rad! 
+Green: Ok, here is another conversation!
+-> Blue: Cool!
+-> Blue: Rad! 
 
-Now what?
--> I dunno!
-	Well, it's up to you!
--> Who cares!
-	That's very nihlistic of you!
+Green: Now what?
+-> Blue: I dunno!
+	Green: Well, it's up to you!
+-> Blue: Who cares!
+	Green: That's very nihlistic of you!
 
 <<set $conversationCount = $conversationCount + 1>>
 
@@ -102,16 +102,16 @@ title: ThankYou
 position: 137,32
 ---
 
-Oh, thank you. This is just what I needed.
+Green: Oh, thank you. This is just what I needed.
 <<set $happyGuy = true>>
 
--> You're very welcome.
-	Let me know if I can do you a favour later in the game.
+-> Blue: You're very welcome.
+	Green: Let me know if I can do you a favour later in the game.
 	<<set $politeGuy = true>>
--> Don't get used to it.
-	How rude!
--> I'll just stare in silence.
-	It's a bit odd to say "I'll just stare in silence." Normally, when people stare in silence, they don't say it out loud, you know? 
+-> Blue: Don't get used to it.
+	Green: How rude!
+-> Blue: I'll just stare in silence.
+	Green: It's a bit odd to say "I'll just stare in silence." Normally, when people stare in silence, they don't say it out loud, you know? 
 
 ===
 
@@ -119,7 +119,7 @@ title: NotInterested
 position: 137,32
 ---
 
-That's not an integrated circuit. What am I supposed to do with that?
+Green: That's not an integrated circuit. What am I supposed to do with that?
 
 ===
 

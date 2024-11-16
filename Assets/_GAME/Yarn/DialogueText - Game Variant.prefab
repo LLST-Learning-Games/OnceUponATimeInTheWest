@@ -111,5 +111,9 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 9130043107890906204, guid: d60d69f34a56d8e40af90c98273fb63a, type: 2}
+    - target: {fileID: 3478031230050648047, guid: fe849d12b063d144a9541bf1714a854e, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe849d12b063d144a9541bf1714a854e, type: 3}

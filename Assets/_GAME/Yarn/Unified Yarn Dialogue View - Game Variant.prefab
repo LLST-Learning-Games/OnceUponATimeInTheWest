@@ -288,14 +288,6 @@ PrefabInstance:
       propertyPath: m_Value
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3484025142283155407, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 91.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 3484025142283155407, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3632247625713777168, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -447,6 +439,10 @@ PrefabInstance:
     - target: {fileID: 6260743322586907122, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_Name
       value: Unified Yarn Dialogue View - Game Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025535631775766810, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_ChildAlignment
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8025535631775766810, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_ChildScaleHeight

@@ -874,6 +874,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8333072443228892148, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8419734555711951005, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -944,6 +948,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568393411042155842, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568393411042155842, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8568393411042155842, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
@@ -1400,6 +1408,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 292446654717498952, guid: 11932c45ebfe68543a9a4d1169082062, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eff7fcdd7efe4a747b1be6dab62277ff, type: 3}
     - target: {fileID: 5436817581472064326, guid: 11932c45ebfe68543a9a4d1169082062, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1452,6 +1464,10 @@ PrefabInstance:
       propertyPath: data.dataString
       value: UEsDBBQAAAgIAACAn+tRG5aegQIAAEgFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFtVEtz2jAQ/iuMziVj83ZvLRCSQxImtJOLL0JeYw2y5JFkHsnw37uSBXZpfbHm29e33670Rbg0FTCr9Erz7EVlQL73iDuTb73W+AQnulNywz/h6vPBM1s4J+p93qnlCvHYhRlVgtWc/ZA74ZwjBGvJc6XLZbaDuTLWIJxTYQBNWlkXLRH66pET/vqJCznjaTB1p088JVHvgkcG0oLuuEYP0SBx3zQehSDExoMIv3gSgqOH2EfXkglaVpC5VtoksxA49E4SWwx2TD5G5FkeQNsNo46j1bVjzZQQ3ATaxJ4rL8s7PTtRMk5RAs8TSyNQAN8V1jXUDX3LcwM2KKTpecE1atnkJD9VI3BJzb6heqCidlVmnmaT8uUfa79pNdeqfLpWjSNXwRac7ZEho8Z29O/Ci5Z47PU6UrGnWwEfBchXtdKqllkrQm1gsPiPJvMC2L7FG6p3YF21A7iN+2E4G8WzyXCy7EfTMDzX0MULcZoLXm69qKMG2AjlhfcLAxon94zs/TqZkBdRR+m3gV901927YHjk2lg0hZal47pVtXauZOkFdK3Vdq60BA+HDiqQVNjzGtPY+2ne2Tpl7yyP1N2wUDzYrhfnLsTDrX8U3ZnW6nibnCnU8QVM8VZbwSW0pJ3hFXWaKymbZetqcg3b1DqnrBO2q3n2956RYT7bsvEoGY8HySCazPrTaDqCJIpptk3YNB8Qv4hcYp9UrBuiQR6cWucuSVy668PTW2la+cXPND2u+GepOpJzmasN0wDyrclwIw4ai+CtzZYZR4E2YC2Xft7kKyVCsT1k6S1R6jtdnqymaZslJRU/KOuQlMz9S5MSB98We63hwOHoil+TXcjlD1BLAwQUAAAICAAAgJ/r0+SX3W0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0knGaRVKyqYmlqamRpZGBmYWuuYG5SaqlgWFiSpJlsnmakVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAgJ/rURuWnoECAABIBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAgJ/r0+SX3W0AAAB4AAAACQAkAAAAAAAAAAAAAADOAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAIYDAAAAAA==
       objectReference: {fileID: 0}
+    - target: {fileID: 7326045458011231223, guid: 11932c45ebfe68543a9a4d1169082062, type: 3}
+      propertyPath: _item
+      value: 
+      objectReference: {fileID: 11400000, guid: 358768eb3721e3e41a1892e77d0e8343, type: 2}
     - target: {fileID: 8011077959842154256, guid: 11932c45ebfe68543a9a4d1169082062, type: 3}
       propertyPath: _sceneIndex
       value: 4
