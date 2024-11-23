@@ -57,6 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2265615779220077512}
   - component: {fileID: 7846884397882609492}
+  - component: {fileID: 5767978716132358072}
   m_Layer: 0
   m_Name: Cutscene_Intro
   m_TagString: Untagged
@@ -96,11 +97,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cutsceneName: Intro
   _cutsceneSteps:
-  - {fileID: 4087484299672909052}
   - {fileID: 7575382939679975057}
   - {fileID: 8580324720156650192}
   _blockInput: 1
-  _overrideSceneFadeIn: 1
+--- !u!114 &5767978716132358072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637952841969107925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d64357cf0c341fe9904ce542f0958c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cutsceneToTrigger: {fileID: 7846884397882609492}
+  _requiredSceneName: Bedroom
+  _runOnce: 1
 --- !u!1 &1767433097103315541
 GameObject:
   m_ObjectHideFlags: 0
