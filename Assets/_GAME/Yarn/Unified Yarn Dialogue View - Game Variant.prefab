@@ -153,6 +153,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2142235434788820421, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1119479940709918898}
+    - target: {fileID: 2142235434788820421, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: _npcHistoryColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -196,6 +200,10 @@ PrefabInstance:
       propertyPath: _dialogueHistoryPrefab
       value: 
       objectReference: {fileID: 8947670400540905836, guid: 99f1933fd28e93e48b89ac66f6bb2306, type: 3}
+    - target: {fileID: 2142235434788820421, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: _onStartDialogueAnimation
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3023893998550924166, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -282,11 +290,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3136228957938447222, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_Size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3136228957938447222, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3484025142283155407, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3484025142283155407, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -8250.993
       objectReference: {fileID: 0}
     - target: {fileID: 3632247625713777168, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_AnchorMax.y
@@ -330,6 +346,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3632247626633086419, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632247626633086419, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3632247626633086419, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
@@ -382,6 +402,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825164926996382073, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825164926996382073, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3897496405678489738, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
@@ -470,6 +494,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+--- !u!1 &3701969645340186684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6260743322586907122, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+  m_PrefabInstance: {fileID: 7314594728756304334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1119479940709918898
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3701969645340186684}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e25b44f76a7ad948ab37c73f6c92eaa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!224 &5509501810586870344 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3023893998550924166, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
