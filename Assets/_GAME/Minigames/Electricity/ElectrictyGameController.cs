@@ -40,7 +40,7 @@ public class ElectrictyGameController : MonoBehaviour
     {
         _electricitySystem.AddResource(_electricityChange);
 
-        _sceneManager.RequestSceneUnload(2);
+        _sceneManager.RequestSceneUnload(1);
         return;
     }
 
