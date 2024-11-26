@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ElectrictyGameController : MonoBehaviour
+public class ElectrictyGameController_Scene : MonoBehaviour
 {
     [SerializeField] private SpinDial _dial;
     [SerializeField] private LightArray _lights;

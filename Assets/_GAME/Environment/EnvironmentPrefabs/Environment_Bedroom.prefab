@@ -140,8 +140,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2812681585663513854, guid: df4bc42dae519ff44bdbb7816f8e0dc3, type: 3}
+      propertyPath: _typeRelationships.Array.data[0].Interactable
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7959073513710238214, guid: df4bc42dae519ff44bdbb7816f8e0dc3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: df4bc42dae519ff44bdbb7816f8e0dc3, type: 3}
+--- !u!1 &2020112752530498162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2812681585663513851, guid: df4bc42dae519ff44bdbb7816f8e0dc3, type: 3}
+  m_PrefabInstance: {fileID: 4251476283601499785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4251476285174700358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020112752530498162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498f18b8ab4549428772779a93a0e6fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minigamePrefab: {fileID: 5241964880102873389, guid: 348b4f2a200d69d47a7ee5320e1772fd, type: 3}
+  _parentCanvas: {fileID: 0}
 --- !u!1001 &9018948538704624058
 PrefabInstance:
   m_ObjectHideFlags: 0
