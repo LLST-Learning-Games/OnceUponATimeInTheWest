@@ -308,6 +308,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2614381254098282888, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: _triggers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614381254098282888, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: _cutscenes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2994083546036365070, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: _animatorToDeactivate
       value: 
@@ -466,6 +474,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5055461381672418429, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068975601009310011, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5532890005337318016, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
