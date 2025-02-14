@@ -204,6 +204,10 @@ PrefabInstance:
       propertyPath: _onStartDialogueAnimation
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2728901326785262873, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
+      propertyPath: m_Color.a
+      value: 0.39215687
+      objectReference: {fileID: 0}
     - target: {fileID: 3023893998550924166, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -302,7 +306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3484025142283155407, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -8250.993
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3632247625713777168, guid: c638f9ece3376bc43a10bcfa442f9108, type: 3}
       propertyPath: m_AnchorMax.y

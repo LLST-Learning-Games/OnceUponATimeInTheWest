@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Blue_Player
   m_EditorClassIdentifier: 
   Id: Blue
-  ActiveTextColor: {r: 0.29411766, g: 0.31764707, b: 0.90588236, a: 1}
+  ActiveTextColor: {r: 0.8006408, g: 0.8084882, b: 0.9811321, a: 1}
   HistoricTextColor: {r: 0.5176471, g: 0.53333336, b: 0.9254902, a: 1}
   CharacterSprite: {fileID: 0}
   NameColor: {r: 0.36320752, g: 0.38769934, b: 1, a: 1}

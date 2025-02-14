@@ -682,6 +682,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5068975601009310011, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5532890005337318016, guid: 120ffe79922ffa443a28bba2e278234f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1508,3 +1512,125 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11932c45ebfe68543a9a4d1169082062, type: 3}
+--- !u!4 &5436817581024748527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 962237627710498906, guid: 11932c45ebfe68543a9a4d1169082062, type: 3}
+  m_PrefabInstance: {fileID: 5436817581024748526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8366726623632009338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5436817581024748527}
+    m_Modifications:
+    - target: {fileID: 196959397341582168, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 196959397341582168, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328981184938476072, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285694864811834, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: _dialogueKey
+      value: NewspaperInteract
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285694864811834, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: _dialogueSystemId
+      value: Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285694864811835, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: _typeRelationships.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285694864811835, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: _typeRelationships.Array.data[0].Interactable
+      value: 
+      objectReference: {fileID: 8366726623632009341}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372272, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448285696135372275, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_Name
+      value: EnvironmentInteractable_Newspaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852526035560610501, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852526035560610501, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852526035560610501, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852526035560610501, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160045913283861859, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+      propertyPath: _dialogueKey
+      value: NewspaperLookAt
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3447103294562007401, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+--- !u!114 &8366726623632009341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2448285694864811834, guid: a5b166a45e6d64f428c109ba1d445537, type: 3}
+  m_PrefabInstance: {fileID: 8366726623632009338}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef22d585c96a644f907ec6515a053f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

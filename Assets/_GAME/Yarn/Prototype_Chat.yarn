@@ -220,5 +220,99 @@ It will continue to fall as long as you are breathing, I'm afraid. So our goal s
 
 
 
+title: NewspaperInteract
+tags:
+position: 
+---
+
+“Local Detective Uncovers Occult Plot!” 
+
+Blue: Yeah, that’s me. The case that sent waves across the atlantic. 
 
 
+-> Blue: It’s not my only case to make the news...
+	<<jump NewspaperInteract_Famous>>
+-> Blue: It was my only case that got any press...
+	<<jump NewspaperInteract_OnlyOne>>
+===
+
+title: NewspaperInteract_Famous
+tags:
+position: 
+---
+
+Blue: but it was my first. This is the case that made me who I am, gave me my name. 
+Blue: As far as public opinion is concerned, I mean. In actuality, my mother probably takes credit for both.
+
+<<jump NewspaperInteract_WhatHappened>>
+
+===
+
+title: NewspaperInteract_OnlyOne
+tags:
+position: 
+---
+
+Blue: The one time I got a front page headline. And yeah, it’s framed and hung on my wall. 
+Blue: Can you blame a guy for clutching to his single moment of fortune and glory?
+
+<<jump NewspaperInteract_WhatHappened>>
+
+===
+
+title: NewspaperInteract_WhatHappened
+tags:
+position: 
+---
+
+Blue: So, you’re wondering what happened? Wackjobs kidnapped a kid. 
+Blue: Not even a kid, the baby of some hotshot airman, old money, but that wasn’t the kid’s fault. 
+Blue: They planned to do some sort of ritual. Sacrifice the kid to their “dark lord.” 
+Blue: It was the ‘20s. Folks were buying into that occult nonsense faster than the stock market.
+
+Blue: The headline gives it away, but yeah, I put a stop to it the only way I know how...
+
+-> Blue: With my gun...
+	<<jump NewspaperInteract_Gun>>
+-> Blue: I followed the clues...
+	<<jump NewspaperInteract_Mind>>
+-> Blue: I used my connections...
+	<<jump NewspaperInteract_Charm>>
+
+===
+
+title: NewspaperInteract_Gun
+tags:
+position: 
+---
+
+Blue: Every detective’s primary tool is his gun. 
+Blue: Whether or not he fires a single bullet, it’s violence— or the threat of it— that gives him authority. 
+Blue: What’s the line? Something about law and order being a pretty face for the state’s monopoly on violence? 
+Blue: Or, in the case of Transatlantic City, the monopoly of state-sanctioned private enterprises like yours truly. 
+Blue: Anyway. Justice is built on violence. Any detective who thinks otherwise is fooling himself.
+Blue: So I threatened witnesses who wanted to keep their mouths shut. 
+Blue: Brandished my holster in front of all the right wrong people. 
+Blue: They pointed me right to the cultist nutjobs and I went in guns blazing...
+Blue: Guess their “god of death” ain’t as powerful as my .38. 
+Blue: I put a couple of them down and the rest decided to get smart and give up.
+
+===
+
+title: NewspaperInteract_Mind
+tags:
+position: 
+---
+
+Blue: Every detective’s primary tool is his mind.
+
+===
+
+title: NewspaperInteract_Charm
+tags:
+position: 
+---
+
+Blue: Every detective’s primary tool is his charm.
+
+===
